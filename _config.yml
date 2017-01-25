@@ -1,32 +1,32 @@
 # Welcome to Jekyll!
 
 # Website settings
-title: arncelik
+title: ARN
 description: Rumeysa's blog.
-keywords: 'Jack,Jalpc,blog,Jekyll,github,gh-pages'
+keywords: 'ARN,arncelik,blog,github'
 baseurl: ''  # if you have suburl as homepage like '/homepage', please change it to '/homepage'
-url: 'http://www.jack003.com'
+#url: 'http://www.jack003.com'
 # url: "http://127.0.0.1:4000"
 img_path: '/static/assets/img/blog'
 
 # author
 author:
-  name: 'arncelik'
+  name: 'ARN'
   first_name: 'Rumeysa'
   last_name: 'Celik'
   #cv: 'http://cv.jack003.com'
   email: 'arncelik@gmail.com'
-  #facebook_username: 'jiakunnj'
+  #facebook_username: 'arncelik'
   github_username: 'arncelik'
-  avatar: '/static/assets/img/landing/Jack.jpg'
-  desc: 'I am a Full Stack engineer with website development, automation Ops and writing scripts experience. Life is a continuous learning process, so work makes me more rigorous, travel makes my life more colorful. I can make lots of friends when I coding and travel.'
+  avatar: '/static/assets/img/landing/ARN.jpg'
+  desc: 'Undergraduate student at North American University,Bioinformatics/Computaional Biology Enthusiast.'
 
 # comment
 changyan:
   # appid: cysfY7ULn
   # conf: prod_861928934cecb7a18e15bedaed9dae29
 disqus:
-  name: jalpc
+  name: ARN
   public_key: tj2MPaNlHMONwTH5bGDNSXyaBpW7q282MeUzh5CwcjJerNhK8Kxk3aWo7IckzTX7
 
 # share
