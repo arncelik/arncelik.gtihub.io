@@ -1,7 +1,7 @@
 # Welcome to Jekyll!
 
 # Website settings
-title: ARN
+title: ARN's BlogPage
 description: Rumeysa's blog.
 keywords: 'ARN,arncelik,blog,github'
 baseurl: ''  # if you have suburl as homepage like '/homepage', please change it to '/homepage'
@@ -16,10 +16,10 @@ author:
   last_name: 'Celik'
   #cv: 'http://cv.jack003.com'
   email: 'arncelik@gmail.com'
-  #facebook_username: 'arncelik'
+  facebook_username: 'arncelik'
   github_username: 'arncelik'
   avatar: '/static/assets/img/landing/ARN.jpg'
-  desc: 'Undergraduate student at North American University,Bioinformatics/Computaional Biology Enthusiast.'
+  desc: 'Undergraduate student at North American University,Bioinformatics/Computational Biology Enthusiast.'
 
 # comment
 changyan:
