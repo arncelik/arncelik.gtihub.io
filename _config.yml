@@ -1,55 +1,76 @@
-# Welcome to Jekyll!
+# Site
+title:              Moon
+bio:                'Minimal, one column jekyll theme.'
+description:        "Moon is a minimal, one column jekyll theme for your blog."
+reading_time:       true
+words_per_minute:   200
+logo:               'assets/img/logo.png'
+background:         'assets/img/placeholder-big.jpg'
+tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
+locale:             en_US
+url:                https://taylantatli.github.io/Moon
 
-# Website settings
-title: ARN
-description: Rumeysa's blog.
-keywords: 'ARN,arncelik,blog,github'
-baseurl: ''  # if you have suburl as homepage like '/homepage', please change it to '/homepage'
-
-# url: "http://127.0.0.1:4000"
-img_path: '/static/assets/img/blog'
-
-# authorss
-author:
-  name: 'ARN'
-  first_name: 'Rumeysa'
-  last_name: 'Celik'
-  #cv: 'http://cv.jack003.com'
-  email: 'arncelik@gmail.com'
-  facebook_username: 'arncelik'
-  github_username: 'arncelik'
-  avatar: '/static/assets/img/landing/ARN.png'
-  desc: 'Undergraduate student at North American University,Bioinformatics/Computational Biology Enthusiast.'
-
-# comment
-changyan:
-  # appid: cysfY7ULn
-  # conf: prod_861928934cecb7a18e15bedaed9dae29
-disqus:
-  name: ARN
-  public_key: tj2MPaNlHMONwTH5bGDNSXyaBpW7q282MeUzh5CwcjJerNhK8Kxk3aWo7IckzTX7
-
-# share
-bshare:
-  uuid: 513f778e-a8f7-4c20-9ec2-d29cc2328d75
-
-# baidu analytics
-ba:
-  # uuid: 317acca9ef9255b934e46371e471431d0
-# google analytics
-ga:
-  id: UA-73784599-1
-
-# growingIO
-gio:
-  # id: a49d4901c7853da9
-
-# Build settings
-encoding: "utf-8"
-
-# other settings
-highlighter: rouge
-markdown: kramdown
+# Jekyll
+permalink:          /:title/
+markdown:           kramdown
+highlighter:        rouge
 kramdown:
-  input: GFM
-  syntax_highlighter: rouge
+  auto_ids:         true
+  footnote_nr:      1
+  entity_output:    as_char
+  toc_levels:       1..6
+  enable_coderay:   false
+mathjax:            true
+sass:
+  sass_dir:         _sass
+  style:            compressed
+
+# Comments
+disqus_shortname:   taylantatli
+
+# Social
+# if you don't have any of social below, comment the line.
+#google:
+  #plus:            #username
+  #analytics:
+  #verify:
+  #ad-client:
+  #ad-slot:
+#bing-verify:
+#email:
+twitter:            username
+facebook:           username
+github-url:         username
+#stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
+#linkedin:          username
+#xing:              username
+instagram:          username
+#lastfm:            username
+#tumblr:            username
+#medium:            '@username'
+#pinterest:         username
+#foursquare:        username
+steam:              username
+#dribbble:          username
+#youtube:           username
+#youtube-channel:   channel
+#soundcloud:        username
+#weibo:             username
+#flickr:            username
+#codepen:           username
+#keybase:           username
+#xmpp:              username@server.com
+#hackernews:        username
+
+# Gems
+gems:
+  - jekyll-mentions
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-gist
+
+jekyll-mentions:
+    base_url: https://github.com
+
+# Exclude list
+exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]
