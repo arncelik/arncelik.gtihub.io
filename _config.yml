@@ -22,14 +22,12 @@ baseurl:               ''
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Hydejack
+title:                 ARN
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  A Jekyll theme with JavaScript powers. "Best Theme by a Mile".
-  Combines the best of static sites and modern web apps.
-  Open `_config.yml` to edit this text.
+  A personal blog of an Undergraduate Bioinformatics Researcher.
 
 # A shorter description for the sidebar.
 tagline:               >
@@ -51,7 +49,7 @@ author:
   # twitter:             <username>
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:             © 2017. All rights reserved.
+copyright:             © ARN 2018. All rights reserved.
 
 # Add links to the footer.
 # Typically you'll want to link to your impress, cookies or privacy policy, etc.
@@ -216,7 +214,7 @@ plugins:
 
 # Used for Twitter cards
 # twitter:
-#   username:            <shortname>
+   username:            <arncelik>
 
 # Used for Facebook open graph
 # facebook:
@@ -228,8 +226,8 @@ plugins:
 # social:
 #   name:                <firstname> <lastname>
 #   links:
-#     - https://twitter.com/<username>
-#     - https://github.com/<username>
+     - https://twitter.com/<arncelik>
+     - https://github.com/<arncelik>
 
 
 # Other Plugins
