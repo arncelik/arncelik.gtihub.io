@@ -27,7 +27,7 @@ title:                 ARN
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  A personal blog of an Undergraduate Bioinformatics Researcher.
+  A personal blog of an Undergraduate Bioinformatics/Computational Biology, Data Science Researcher.
 
 # A shorter description for the sidebar.
 tagline:               >
@@ -52,11 +52,11 @@ copyright:             © ARN 2018. All rights reserved.
 
 # Add links to the footer.
 # Typically you'll want to link to your impress, cookies or privacy policy, etc.
-# legal:
-#   - title:             Impress
-#     href:              /impress/
-#   - title:             Cookies Policy
-#     href:              /cookies-policy/
+legal:
+- title:             Impress
+     href:              /impress/
+   - title:             Cookies Policy
+     href:              /cookies-policy/
 
 # Format of the permalinks
 permalink:             pretty
@@ -91,11 +91,11 @@ font_heading:          Roboto Slab, Helvetica, Arial, sans-serif
 # google_analytics:      UA-XXXXXXXX-X
 
 # Setting a disqus shortname will enable the comment section on
-# pages with `comments: true` in the front matter.
-# disqus:                <disqus_shortname>
+pages with `comments: true` in the front matter.
+disqus:                <disqus_shortname>
 
 # Setting a tinyletter username will enable the newsletter subscription box.
-# tinyletter:            <tinyletter_username>
+ tinyletter:            <tinyletter_username>
 
 # Hydejack Settings
 # ----------------------------------------------------------------------------------------
@@ -212,7 +212,7 @@ plugins:
 #   yandex:              <verification-id>
 
 # Used for Twitter cards
-# twitter:
+twitter:
    username:            <arncelik>
 
 # Used for Facebook open graph
@@ -222,9 +222,9 @@ plugins:
 #   admins:              <id>
 
 # Used on index and about sites
-# social:
-#   name:                <firstname> <lastname>
-#   links:
+ social:
+   name:                <firstname> <lastname>
+   links:
      - https://twitter.com/<arncelik>
      - https://github.com/<arncelik>
 
