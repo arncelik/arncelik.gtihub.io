@@ -1,6 +1,6 @@
 # Site
 title:              Asuman Rumeysa Nur Celik
-bio:                'Undergrad researcher, Genomic Data Science Enthusiast'
+bio:                'Undergrad researcher, Deep Learning in Genomics Enthusiast'
 description:        ""
 reading_time:       true
 words_per_minute:   200
@@ -26,7 +26,7 @@ sass:
   style:            compressed
 
 # Comments
-disqus_shortname:   taylantatli
+disqus_shortname:   arncelik
 
 # Social
 # if you don't have any of social below, comment the line.
@@ -39,7 +39,7 @@ disqus_shortname:   taylantatli
 #bing-verify:
 #email:
 twitter:            arncelik
-facebook:           arncelik
+#facebook:           arncelik
 github-url:         arncelik
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          arncelik
@@ -50,7 +50,7 @@ instagram:          arncelik
 #medium:            '@username'
 #pinterest:         username
 #foursquare:        username
-steam:              username
+#steam:              username
 #dribbble:          username
 #youtube:           username
 #youtube-channel:   channel
