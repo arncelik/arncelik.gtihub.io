@@ -61,7 +61,7 @@ After importing necessary libraries,  I used build method that takes following p
 
 
 
-'''python
+~~~python
 # import the necessary packages
 from keras.models import Sequential
 from keras.layers.convolutional import Conv2D
@@ -75,7 +75,7 @@ class LeNet:
 	@staticmethod
 	def build(numChannels, imgRows, imgCols, numClasses,
 		activation="relu", weightsPath=None):
-'''
+~~~
 After initializing the model, we can start adding layers to it, next move will be compiling and fitting the model.
 
 
