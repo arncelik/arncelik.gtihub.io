@@ -60,7 +60,15 @@ After importing necessary libraries,  I used build method that takes following p
 * number of classes (unique number of clas labels) in the MNIST dataset.
 
 
+<<<<<<< HEAD
 ~~~python
+||||||| merged common ancestors
+
+'''python
+=======
+
+~~~python
+>>>>>>> 61519bc1995ed6e3b12500c624b01fd5f56102b2
 # import the necessary packages
 from keras.models import Sequential
 from keras.layers.convolutional import Conv2D
