@@ -8,7 +8,7 @@ logo:               'assets/img/logo.jpg'
 background:         'assets/img/placeholder-big1.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
-url:                https://taylantatli.github.io/Moon
+url:                https://arncelik.github.io
 
 # Jekyll
 permalink:          /:title/
@@ -42,12 +42,12 @@ twitter:            arncelik
 #facebook:           arncelik
 github-url:         arncelik
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
-#linkedin:          arncelik
+linkedin:          arncelik
 #xing:              username
-instagram:          arncelik
+#instagram:          arncelik
 #lastfm:            username
 #tumblr:            username
-#medium:            '@username'
+medium:            '@arncelik'
 #pinterest:         username
 #foursquare:        username
 #steam:              username
