@@ -6,6 +6,7 @@ excerpt: ""
 tags: [machine learning, deep learning, keras, tensorflow]
 comments: true
 ---
+
 # What is Keras?
 Let's see what the Keras is before moving on to explanation of my first task of "Machine Learning Practice" project.
 ###Definition: 
