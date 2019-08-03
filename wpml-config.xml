@@ -1,0 +1,24 @@
+<wpml-config>
+<admin-texts>
+<key name="theme_mods_revolve">
+    <key name="revolve_hslide_caption_title" />
+    <key name="revolve_hslide_caption_content" />
+    <key name="revolve_slide1_caption_title" />
+    <key name="revolve_slide1_caption_content" />
+    <key name="revolve_slide2_caption_title" />
+    <key name="revolve_slide2_caption_content" />
+    <key name="revolve_slide3_caption_title" />
+    <key name="revolve_slide3_caption_content" />
+    <key name="revolve_slide4_caption_title" />
+    <key name="revolve_slide4_caption_content" />
+    <key name="revolve_slide5_caption_title" />
+    <key name="revolve_slide5_caption_content" />
+    <key name="revolve_slide6_caption_title" />
+    <key name="revolve_slide6_caption_content" />
+    <key name="revolve_slide7_caption_title" />
+    <key name="revolve_slide7_caption_content" />
+    <key name="revolve_slide8_caption_title" />
+    <key name="revolve_slide8_caption_content" />
+</key>
+</admin-texts>
+</wpml-config>
