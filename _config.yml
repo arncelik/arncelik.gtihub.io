@@ -1,4 +1,4 @@
-title: Hello, world! I'm David Freeman
+title: Asuman R.N. Celik
 description: > # this means to ignore newlines until "baseurl:"
 permalink: ':title/'
 baseurl: "/arncelik.github.io" # the subpath of your site, e.g. /blog
@@ -7,7 +7,7 @@ site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
 author: Asuman R.N. Celik # add your name
-author-img: david-freeman.jpg # add your photo
+author-img: profile.jpg # add your photo
 about-author: Software Engineer, Deep Genomics Enthusiast # add description
 social-twitter: # add your Twitter handle
 social-facebook: # add your Facebook handle
