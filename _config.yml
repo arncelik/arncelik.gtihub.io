@@ -1,5 +1,5 @@
 title: Asuman R.N. Celik
-description: > "Much to learn, you still have."  -Master Yoda# this means to ignore newlines until "baseurl:"
+description: > "Much to learn, you still have."  -Master Yoda # this means to ignore newlines until "baseurl:"
 permalink: ':title/'
 baseurl: "/arncelik.github.io" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
