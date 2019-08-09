@@ -1,5 +1,5 @@
 title: Asuman R.N. Celik
-description: > # this means to ignore newlines until "baseurl:"
+description: > "Much to learn, you still have."  -Master Yoda# this means to ignore newlines until "baseurl:"
 permalink: ':title/'
 baseurl: "/arncelik.github.io" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
@@ -8,12 +8,12 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: Asuman R.N. Celik # add your name
 author-img: profile.jpg # add your photo
-about-author: Software Engineer, Deep Genomics Enthusiast # add description
-social-twitter: # add your Twitter handle
-social-facebook: # add your Facebook handle
+about-author: Software Engineer | Deep Genomics Enthusiast # add description
+social-twitter: twitter.com/arncelik # add your Twitter handle
+social-facebook: facebook.com/arncelik # add your Facebook handle
 social-github: arncelik # add your Github handle
-social-linkedin: # add your Linkedin handle
-social-email: # add your Email address
+social-linkedin: https://www.linkedin.com/in/asuman-r-n-celik # add your Linkedin handle
+social-email: arncelik@gmail.com # add your Email address
 
 # Disqus
 discus-identifier: mr-brown # add your discus identifier
