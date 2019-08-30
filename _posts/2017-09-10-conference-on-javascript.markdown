@@ -4,7 +4,7 @@ title: Machine Learning Practice Task 4: LeNet-5
 date: 2019-02-10 00:00:00 +0300
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
 img: js-1.png # Add image post (optional)
-tags: [Js, Conference] # add tag
+tags: [LeNet, Keras, ML, Deep Learning] # add tag
 ---
 # TASK 4-Part 1: Cifar 10 Training with LeNet-5
 

@@ -1,17 +1,60 @@
 ---
 layout: post
-title: How To Start Programming
+title: Task 4: LeNet-5 Architecture
 date: 2017-09-12 00:00:00 +0300
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
 img: how-to-start.jpg # Add image post (optional)
-tags: [Programming, Learn] # add tag
+tags: [Machine Learning, Deep Learning, architecture, Keras] # add tag
 ---
-Post-ironic jean shorts bushwick umami, synth beard austin hell of meh kitsch distillery sustainable plaid bitters. Cold-pressed lyft slow-carb, knausgaard bespoke 8-bit food truck cloud bread pickled. Taiyaki bitters trust fund heirloom craft beer single-origin coffee. Readymade fam vape blue bottle cold-pressed, flannel polaroid. Aesthetic four dollar toast semiotics af bicycle rights. Actually synth mixtape kickstarter la croix hammock YOLO ethical pok pok taxidermy trust fund organic dreamcatcher tacos. Franzen four loko man braid letterpress umami offal. Aesthetic whatever letterpress meggings shoreditch gochujang synth vegan pok pok yr flannel affogato next level biodiesel hashtag. Banjo vaporware lyft unicorn tumblr. Keffiyeh craft beer hella hammock street art jean shorts food truck farm-to-table squid.
+# TASK 4-Part 1: Cifar 10 Training with LeNet-5
 
->Tattooed pour-over taiyaki woke, skateboard subway tile PBR&B etsy distillery street art pok pok wolf 8-bit. Vegan bicycle rights schlitz subway tile unicorn taiyaki.
+This task is for practise of LeNet.
+Last task I have learned the LeNEt algorithm and used o tfor the first time. Through Task , I have gained a hands on experice by changing hyperparameters and comparing the results between them.
 
-Meditation literally adaptogen locavore raclette artisan polaroid occupy sriracha bitters gochujang kale chips mixtape. Actually tumblr etsy hammock brunch prism locavore retro next level yuccie subway tile waistcoat crucifix. Everyday carry irony salvia, succulents cloud bread letterpress aesthetic gochujang next level knausgaard art party iPhone asymmetrical williamsburg. Iceland slow-carb knausgaard narwhal skateboard kitsch fashion axe. Man bun celiac street art, cliche PBR&B lomo blue bottle beard bitters. Mlkshk occupy offal dreamcatcher. Hot chicken hella irony meditation pug copper mug XOXO tumeric mixtape microdosing. Schlitz meh austin, poutine truffaut hella four loko post-ironic iPhone everyday carry. Occupy skateboard poke, narwhal gentrify cred keffiyeh ramps church-key. Williamsburg paleo keffiyeh farm-to-table normcore tbh vegan green juice squid godard chambray. DIY organic letterpress, venmo salvia crucifix gluten-free. Yr celiac tbh selfies activated charcoal.
+### Step 0: What is Cifar-10 dataset?
 
-Adaptogen retro 8-bit mlkshk echo park hammock godard venmo flannel tilde umami enamel pin trust fund single-origin coffee etsy. Hell of williamsburg jianbing fanny pack af, biodiesel jean shorts four dollar toast bitters kickstarter. DIY edison bulb keffiyeh raclette. Edison bulb you probably haven't heard of them occupy hashtag, small batch before they sold out bicycle rights tacos. IPhone selfies banh mi sartorial, typewriter seitan plaid. Fanny pack williamsburg gentrify plaid hoodie. Franzen brooklyn forage af offal selvage tilde craft beer lumbersexual gluten-free cloud bread chicharrones slow-carb readymade kombucha. Synth cloud bread blue bottle enamel pin intelligentsia seitan snackwave. Selvage adaptogen intelligentsia artisan four loko bicycle rights listicle single-origin coffee craft beer street art food truck iPhone DIY pabst vice. Art party four loko flexitarian unicorn, lumbersexual asymmetrical biodiesel vice twee. Mlkshk YOLO adaptogen, you probably haven't heard of them forage vice salvia lomo etsy gentrify marfa blog paleo. Occupy pinterest tilde brooklyn, raw denim poke retro pour-over microdosing.
+Since it was the forst time I have heard of cifar 10 dataset I have searched it up and collect some information about what the [cifar10](https://www.cs.toronto.edu/~kriz/cifar.html) is.
 
-Skateboard keytar actually disrupt taiyaki, synth biodiesel. Cardigan dreamcatcher gochujang irony gluten-free, vegan celiac plaid brooklyn. Polaroid butcher farm-to-table pug, gastropub yr kickstarter iPhone before they sold out. Marfa cornhole migas hashtag flannel fashion axe deep v kogi. Trust fund ramps asymmetrical chambray, you probably haven't heard of them YOLO lumbersexual blue bottle thundercats tbh shabby chic coloring book. Kickstarter ugh try-hard four dollar toast master cleanse. Semiotics bespoke art party twee roof party cardigan. Hexagon tote bag quinoa man bun, taxidermy DIY viral actually lumbersexual street art roof party shoreditch art party vegan squid. Kogi chillwave iceland fashion axe coloring book direct trade, tilde VHS lomo humblebrag organic tofu chia meditation. Hella keytar shabby chic 90's taxidermy tacos marfa. Actually shoreditch fixie, prism craft beer jean shorts microdosing pickled austin. Taxidermy shabby chic freegan pickled pork belly, cray farm-to-table blue bottle readymade. 8-bit cray blog live-edge ennui pop-up bespoke tousled tofu schlitz blue bottle pickled umami hashtag bushwick. Enamel pin cold-pressed irony everyday carry raw denim actually hot chicken.
+### Step 1: Understanding the LeNet-5 algorithm.
+
+<p>Convolutional Neural Networks are are a special kind of multi-layer neural networks. Like almost every other neural networks they are trained with a version of the back-propagation algorithm. Where they differ is in the architecture.<b></p>
+
+<p>Convolutional Neural Networks are designed to recognize visual patterns directly from pixel images with minimal preprocessing. <b></p>
+
+<p>They can recognize patterns with extreme variability (such as handwritten characters), and with robustness to distortions and simple geometric transformations.<b></p>
+
+<p>LeNet-5 is the latest convolutional network designed for handwritten and machine-printed character recognition.</p>  
+
+### LeNet-5 Architecture
+<p>The LeNet-5 arhitecture consists of two sets of convolutional and average pooling layers, followed by a flattening convolutional layer, two fully connected layers, and a softmax classifier:</b></p>
+<p>It has 7 layers in total including output layer :</p>
+
+* 3 convolutional layers -C1, C3 and C5-,
+* 2 pooling/sub-sampling layers -S2 and S4-,
+* 1 fully connected layer -F6-
+
+![Architecture of LeNet-5](https://www.researchgate.net/profile/Vladimir_Golovko3/publication/313808170/figure/fig3/AS:552880910618630@1508828489678/Architecture-of-LeNet-5_W640.jpg)
+
+* **First Layer**
+<p>The input for LeNet-5 is a 32x32 size image which meets the first convolutional layer with 5x5 size 6-feature filters and passes one. The dimension chages 32*32*1 to 28*28*6</p>
+
+* **Second Layer**
+<p>After the image dimensions has changed, LeNet-5 applies pooling layer. Pooling Layer's function is to progressively reduce the spatial size of the representation to reduce the amount of parameters and computation in the network, and hence to also control overfitting. It operates independently on every depth slice of the input and resizes it spatially, using the MAX operation.So, the image size will be reduced to 14*14*6</p>
+
+* **Third Layer**
+<p>At this stage, there is a convolutional layer with 16-feature, 5*5 size filters; however 5*5 in the layer C3, individual convolutional kernels do not use all of the features produced by the previous layer. Only 10 out of 16 filters are connected to 6-feature filters of the previous layer.</p>
+
+<sup>* PS There are several reasons for that. One reason is to make the network computationally less demanding.Other and the main reason is to amke convolutional kernels learn different patterns.</sup>
+* **Fourth Layer**
+<p>S4 is again a pooling layer with filter size 2*2 and stride of 2.This layer is the same as the second layer S2 except it has 16 features so the output will be reduced to 5*5*16 </p>
+
+* **Fifth Layer**
+<p>C5 is a convolutional layer with 120 feature filters each of size is 1*1.C5 is connected to all nodes in the fourth layer.</p>
+
+* **Sixth Layer**
+<p>This is the fully connected layer F6 with 84 units.</p>
+
+* **Output Layer**
+<p>Finally, there is a fully connected softmax output layer y with 10 possible values corresponding to the digits from 0-9. </p>
+
+![As a summary](https://cdn-images-1.medium.com/max/800/1*gNzz6vvWmF6tDN6pTRTd9g.jpeg)
