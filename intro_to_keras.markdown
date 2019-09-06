@@ -1,15 +1,15 @@
 ---
 layout: post
-title: "Notebook: Introduction to Keras"
-date: 2019-01-01
-excerpt: "Study Notes"
-tags: [machine learning, deep learning, keras, tensorflow]
-comments: true
+title: Study Notes: Introduction to Keras
+date: 2019-01-30
+description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
+img: i-rest.jpg # Add image post (optional)
+fig-caption: # Add figcaption (optional)
+tags: [Machine Learning, Keras]
 ---
-
 # What is Keras?
 Let's see what the Keras is before moving on to explanation of my first task of "Machine Learning Practice" project.
-### Definition:
+###Definition:
 
 Keras is a high-level neural networks API, written in Python.
 It was developed with a focus on enabling fast experimentation. Being able to go from idea to result with the least possible delay is key to doing good research.
