@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Moon Jekyll Theme [![Donate](https://img.shields.io/badge/paypal-donate-blue.svg)](https://www.paypal.me/taylantatli/0usd)  
   
 ## `Sorry guys but there will be no update until I buy a new laptop.`
@@ -28,3 +29,6 @@ See a [live version of Moon](https://taylantatli.github.io/Moon) hosted on GitHu
 ## Getting Started
 
 To learn how to install and use this theme check out the [Setup Guide](https://taylantatli.github.io/Moon/moon-theme/) for more information.
+=======
+# Personal Blog Page
+>>>>>>> cc6baf524c7b546ef37860768913485b557e1238
