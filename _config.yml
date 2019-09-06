@@ -1,10 +1,10 @@
 # Site
 title:              Asuman R.N. Celik
-bio:                'Senior Software engineering studetn, Deep Genomics Enthusiast'
+bio:                'Senior Software engineering student, Deep Genomics Enthusiast'
 description:        "Personal Blog"
 reading_time:       true
 words_per_minute:   200
-logo:               'assets/img/logo.png'
+logo:               'assets/img/logo.jpg'
 background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
@@ -44,13 +44,13 @@ github-url:         arncelik
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 linkedin:          arncelik
 #xing:              username
-instagram:          username
+#instagram:          username
 #lastfm:            username
 #tumblr:            username
 medium:            '@arncelik'
 #pinterest:         username
 #foursquare:        username
-steam:              username
+#steam:              username
 #dribbble:          username
 #youtube:           username
 #youtube-channel:   channel
