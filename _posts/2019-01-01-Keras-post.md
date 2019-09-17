@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Notebook: Introduction to Keras"
-date: 2019-01-01
+date: 2019-02-01
 excerpt:
 tags: [machine learning, deep learning, keras, tensorflow]
 comments: true
