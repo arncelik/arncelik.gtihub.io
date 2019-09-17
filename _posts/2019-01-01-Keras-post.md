@@ -1,22 +1,21 @@
 ---
 layout: post
-title: "Notebook: Introduction to Keras"
-date: 2019-02-01
-excerpt:
-tags: [machine learning, deep learning, keras, tensorflow]
+title: "Notebook : Introduction to Keras"
+date: 2019-01-01
+excerpt: "Keras Basics"
+tags: [keras, tensorflow, machine learning, deep learning]
+feature: https://miro.medium.com/max/1000/1*LkKz4wtZNBo5i-Vc8DWhTA.png
 comments: true
 ---
 # What is Keras?
 Let's take a look at the definition of Keras before moving on to explanation of my first task of "Machine Learning Practice" project.
 ## Definition:
 
-Keras is a high-level neural networks API, written in Python.
-It was developed with a focus on enabling fast experimentation. Being able to go from idea to result with the least possible delay is key to doing good research.
-
-Use Keras if you want to quickly build and test a neural network with minimal lines of code. It also;
+Keras is a high-level neural networks API, written in Python. It's capable of running on top of TensorFlow.
+You may want to use Keras if you want to quickly build and test a neural network with minimal lines of code. It also;
 
 * Supports both convolutional networks and recurrent networks, as well as combinations of the two.
-* Runs seamlessly on CPU and GPU.
+* Runs impeccable on CPU and GPU.
 
 The core data structure of Keras is a model, a way to organize layers. The simplest type of model is the Sequential model, a linear stack of layers.
 
