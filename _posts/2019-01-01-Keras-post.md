@@ -8,8 +8,8 @@ comments: true
 ---
 
 # What is Keras?
-Let's see what the Keras is before moving on to explanation of my first task of "Machine Learning Practice" project.
-### Definition:
+Let's see the definiton of Keras before moving on to explanation of my first task of "Machine Learning Practice" project.
+## Definition:
 
 Keras is a high-level neural networks API, written in Python.
 It was developed with a focus on enabling fast experimentation. Being able to go from idea to result with the least possible delay is key to doing good research.
@@ -37,7 +37,7 @@ comments: true
 ---
 # What is Keras?
 Let's see what the Keras is before moving on to explanation of my first task of "Machine Learning Practice" project.
-###Definition:
+## Definition:
 
 Keras is a high-level neural networks API, written in Python.
 It was developed with a focus on enabling fast experimentation. Being able to go from idea to result with the least possible delay is key to doing good research.
