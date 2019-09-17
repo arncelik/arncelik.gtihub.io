@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Notebook : Introduction to Keras"
-date: 2019-01-01
+date: 2019-02-01
 excerpt: "Keras Basics"
 tags: [keras, tensorflow, machine learning, deep learning]
 feature: https://miro.medium.com/max/1000/1*LkKz4wtZNBo5i-Vc8DWhTA.png
