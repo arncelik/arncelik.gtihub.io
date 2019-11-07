@@ -1,17 +1,12 @@
 ---
 layout: post
-<<<<<<< HEAD
 title: "Networking at the GHC?"
-=======
-title: "2019 Grace Hopper Celebration"
->>>>>>> e51a2b0071b635868ec600fb196c054c8c7dc13c
 date: 2019-11-07
 excerpt: "GHC19"
 tags: [women in tech, GHC, computing, conference]
 feature: https://miro.medium.com/max/3200/1*KpEYyK4OXY0mC0qEr5UnTg.jpeg
 comments: true
 ---
-<<<<<<< HEAD
 
 Notwithstanding of jobs in an industry, developing excellent communication skills is a key element of professional achievement. Productive communication is an exceptional approach to fulfill tasks and duties adequately. Networking means willing to know people and being able to ask for their guidance whenever you get in contact with them and helping when they need your guidance. Between March and October, which is the period between getting a scholarship and attending the GHC, I've connected nearly a thousand people. However, I know a few of them in person and freely ask anything about my professional development. This illustrates the image very precisely, a few out of thousands tell me the actual number of my connections.
 Just as a reminder, I only wrote about my experience from my perspective. As I stated in the previous post, everyone's GHC adventure is way more different than others, so your experience will be as unique as you.
