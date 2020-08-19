@@ -5,5 +5,5 @@ tags: [personal blog]
 date: 2016-03-21
 comments: false
 ---
-I am a senior software engineering student at North American University with a minor in Math Education and a prospective graduate student. I have a strong desire to study Bioinformatics, Deep Learning applications in Genomics in particular. I am also interested in cancer detection studies which ignited by a personal story.
-My goal is getting a PhD degree in Bioinformatics and running my own lab.
+I am a graduate research assistant at Cincinnati Children's Hospital. I have a strong desire to study deep learning applications in cancer genomics in particular.
+My goal is to continue with a Post Doc position after earning a Ph.D. degree and running my own lab afterward.
